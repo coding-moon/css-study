@@ -1,0 +1,76 @@
+div {
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+
+}
+
+h1 {
+    padding: 0;
+}
+
+@media (min-width: 850px) {
+
+    .find-wrap {
+        display: table;
+        padding: 0;
+        background: #fff;
+        width: 100%;
+        min-width: 320px;
+        border-collapse: separate;
+        height: 100%;
+    }
+
+    .find {
+        display: table-cell;
+        padding: 50px 0;
+        height: 100%;
+        position: relative;
+        min-height: 100%;
+        vertical-align: middle;
+    }
+
+    .header {
+        display: block;
+    }
+    
+    .logo {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .logo-melon {
+        margin: 0 auto;
+        display: block;
+        width: 111px;
+        height: 30px;
+        background: url(https://cdnimg.melon.co.kr/member/img/common/logo-melon-pc_20210108@3x.png) no-repeat left top;
+        background-size: 111px 30px;
+    }
+
+    .find-co {
+        min-width: auto;
+        margin: 0;
+    }
+
+    .box {
+        max-width: 520px;
+        min-height: 440px;
+        margin: 40px auto 35px;
+        padding: 0 70px;
+        border: solid 1px #e5e5e5;
+        border-radius: 2px;
+    }
+
+    .main {
+        padding: 70px 0 70px;
+    }
+
+    .title {
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+}

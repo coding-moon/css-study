@@ -1,0 +1,257 @@
+body {
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    font-family: "Apple SD Gothic Neo","Malgun Gothic","맑은 고딕","Dotum","돋움","Apple Gothic",sans-serif;
+    height: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    background: #fff;
+
+}
+
+ /* #wrap .login  {
+    min-height: 100%;
+    min-width: 550px !important;
+    background: #fff url(//cdnimg.melon.co.kr/resource/image/web/member/bg_mem_repeat.png) repeat-x;
+}  */
+
+
+#member-cont-wrap {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clfix {
+    display: block;
+}
+
+#conts-section {
+    position: relative;
+    width: auto !important;
+    margin: 0 auto;
+
+}
+
+.gate-box {
+    padding: 56px 0 0;
+    width: 390px;
+    margin: 0 auto;
+    
+}
+
+.btn {
+    position: relative;
+    text-align: right;
+    margin: 0 0 12px 0;
+}
+
+ .btn-qr {
+    position: relative;
+    padding-left: 21px;
+    font-size: 15px;
+    font-family: "맑은 고딕","Malgun Gothic","Apple Gothic",sans-serif;
+    line-height: 19px;
+    letter-spacing: -1px;
+    color: #191919;
+    text-align: right;
+    margin: 0 0 12px 0;
+
+}
+
+.icon-login-ic-login-qr {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/member/ic-login-qr-20210105.png) no-repeat left 0;
+
+}
+
+.btn-qr-info {
+    width: 20px;
+    height: 20px;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/member/btn-login-infoicon.png) no-repeat left 0;
+    cursor: pointer;
+    margin: -1px 0 0 2px;
+    vertical-align: top;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: center;
+
+}
+
+.none {
+    position: absolute;
+    top: -5000em;
+    left: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+ .box-tooltip {
+    display: block;
+    position: absolute;
+    top: -80px;
+    right: 0;
+
+}
+
+.close {
+    position: absolute;
+    right: 7px;
+    top: 11px;
+    width: 13px;
+    height: 13px;
+    background: url(https://cdnimg.melon.co.kr/resource/image/web/member/btn-login-tooltip-close.png) no-repeat left 0;
+    cursor: pointer;
+    z-index:30;
+}
+
+.bot {
+    position: absolute;
+    right: 6px;
+    bottom: -7px;
+    width: 11px;
+    height: 8px;
+    background: url(https://cdnimg.melon.co.kr/resource/image/web/member/bg_arrow_login.png) no-repeat left 0;
+}
+.txt-tooltip {
+    width: 374px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 10px 0 10px 14px;
+    font-size: 13px;
+    font-family: "맑은 고딕","Malgun Gothic","Apple Gothic",sans-serif;
+    line-height: 22px;
+    color: #191919;
+    text-align: left;
+    margin: 0;
+}
+
+div.kakao-btn {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.btn-kakao {
+    background: #fae100;
+    border: 1px solid #fae100;
+}
+
+.login-btn button{
+    width:100%;
+    height: 60px;
+    text-align: center;
+    line-height: 61px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 0 14px 0;
+    cursor: pointer;
+}
+
+.btn-kakao span{
+    display: inline-block;
+    background: url(https://cdnimg.melon.co.kr/resource/image/web/member/icon_kakao02.png) no-repeat left 23px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #323232;
+
+    font-family: "Apple SD Gothic Neo";
+
+}
+
+.btn-melon {
+    border: 1px solid #d9d9d9;
+    background: #fff;
+
+}
+
+.btn-melon span {
+    display: inline-block;
+    background: url(https://cdnimg.melon.co.kr/resource/image/web/member/icon_melon02.png) no-repeat left 19px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: "Apple SD Gothic Neo";
+    color: #323232;
+
+}
+
+.join {
+    margin: 58px 0 188px 0;
+    text-align: center;
+
+}
+
+.join a {
+    color: #606060;
+    font-size: 14px;
+    font-family: "맑은 고딕","Malgun Gothic","Apple Gothic",sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer-wrap {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+
+    
+}
+
+
+li.first-footer {
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+    background: 0;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.second-footer {
+    float: left;
+    margin-left: 7px;
+    padding-left: 7px;
+    background: url(https://cdnimg.melon.co.kr/resource/image/web/member/bl_footer_line.png) 0 5px no-repeat;
+}
+
+.third-footer {
+    float: right;
+    margin-left: 7px;
+    padding-left: 7px;
+    background: url(https://cdnimg.melon.co.kr/resource/image/web/member/bl_footer_line.png) 0 5px no-repeat;
+}
+
+.footer-tele {
+    margin-top: 25px;
+    font-weight: normal;
+
+}
+
+#member-footer p {
+    margin-top: 21px;
+    font-size: 11px;
+    cursor: default;
+}
+
+#member-footer a {
+    color: #969696;
+}

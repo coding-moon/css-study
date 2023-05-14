@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melon</title>
+    <link rel="stylesheet" href="melon.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="wrap" class="login">
+        <!-- header -->
+        <div id="header">
+            <div id="gnb">
+                <h1>
+                    <a href="https://www.melon.com/" title="Melon 메인" onclick="">
+                        <img src="https://cdnimg.melon.co.kr/resource/image/web/member/img_logo206x56.png" width="206" height="56"/>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+   
+    <!-- contents -->
+    <div id="member-cont-wrap" class="clfix">
+        <div id="conts-section">
+            <div class="wrap-login-out">
+                <div class="gate-box">
+
+                    <!-- qr 도움말 버튼 -->
+                        <div class="btn">
+                            <a href="#" title="카카오 QR코드 로그인" class="btn-qr">
+                                <span class="icon-login-ic-login-qr"></span>
+                                카카오 QR코드 로그인
+                            </a>
+                            <button type="button" title="카카오 QR코드 로그인 도움말" class="btn-qr-info">
+                                <span class="none">카카오 QR코드 로그인 도움말</span>
+                            </button>
+                            <div class="box-tooltip">
+                                <p class="txt-tooltip">
+                                    PC방 / 공용 환경에서는 카카오계정 QR코드 로그인으로
+                                    <br>
+                                    아이디, 비밀번호 입력없이 안전하게 로그인 할 수 있어요
+                                </p>     
+                                <button type="button" title="닫기" class="close"> 
+                                    <span class="none"></span>
+                                </button>
+                                <span class="bot"></span>                     
+                            </div>
+                        </div>
+                        <!-- kakao계정 -->
+                        <div class="login-btn">
+                            <button type="button" onClick="window.open('https://accounts.kakao.com/login/?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fencode_state%3Dtrue%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fmember.melon.com%252Foauth.htm%26state%3DCRYT_mKzaPWr6tQ%2540OGJOvAySTa1z%252FdahPxkdLSm6DLMiAP3NgbvlvtypzpBHvDt285fK%252FBKyi2ZwjwKK6QS04HsRlFg%253D%253D%26through_account%3Dtrue%26prompt%3Dnull%26client_id%3D6cfb479f221a5adc670fe301e1b6690c','kakao','width=800, height=700')" class="btn-kakao" title="카카오계정 로그인"> 
+                                     <span>카카오계정 로그인</span> 
+                            </button>
+                        </div>
+
+                        <!-- 멜론아이디 -->
+                        <div class="login-btn">
+                            <button onclick="location.href='login.html'" class="btn-melon" title="멜론아이디 로그인"> 
+                                    <span>멜론아이디 로그인</span> 
+                            </button>
+                        </div>
+                        
+                        <div class="join">
+                            <a href="" title="회원가입">회원가입</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <div id="member-footer" >
+        <ul class="footer-wrap">
+            <li class="first-footer">
+                <a href="https://info.melon.com/terms/web/terms1_1.html" title="이용약관" target="_blank">이용약관</a>
+            </li>
+            <li class="second-footer">
+                <a href="https://info.melon.com/terms/web/terms1_3.html" title="위치기반서비스 이용약관" target="_blank">
+                    <strong>위치기반서비스 이용약관</strong>
+                </a>
+            </li>
+            <li class="third-footer">
+                <a href="https://info.melon.com/terms/web/terms3.html" title="개인정보처리방침" target="_blank">
+                    <strong>개인정보처리방침</strong>
+                </a>
+            </li>
+        </ul>
+        <ul class="footer-tele">
+            <li>
+                <span>문의전화 : 1566-7727 (평일 09:00-18:00, 유료)</span>
+            </li>
+        </ul>
+        <p>
+            <a href="https://kakaoent.com/" target="_blank">© Kakao Entertainment Corp.</a>
+        </p>
+    </div>
+
+</body>
+</html>

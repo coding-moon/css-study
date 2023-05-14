@@ -1,0 +1,115 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+div#house {
+    padding-top: 40px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+
+ img.img {
+    width: 31px;
+    height: 31px;
+    margin-left: 0px;
+
+}
+
+.today-text a{
+    border: none;
+}
+
+img.today {
+    width: 52px;
+    height: 22px;
+}
+
+/* div.today-house img {
+    width: 38px;
+    margin-top: 40px;
+    margin-left: 25px;
+} */
+
+/*  h3 {
+   margin-left: 100px; 
+} */
+
+
+button {
+    border-radius: 4px;
+    width: 33%;
+    margin-top: 14px;
+    display: block;
+    border: 2px solid;
+    border-color:#F2F2F2;
+    background-color:#F2F2F2;
+}
+
+div.sns-wrap {
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.sns {
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0px;
+    color: rgb(117, 117, 117);
+}
+
+ul.sns-container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0px 10px;
+ 
+}
+
+.sns-icon {
+    list-style: none;
+}
+
+.sns-icon img {
+    margin: 0;
+}
+
+.password {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #828C94;
+}
+
+.input-form-control{
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #424242;
+}
+
+.span-form-contorl {
+    color: #dbdbdb;
+
+}
+
+.select-form-control {
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 15px;
+}
+
+div.form-control{
+    width: 360px;
+    margin: 0 auto;
+}

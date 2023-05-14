@@ -1,0 +1,86 @@
+<!-- letter-spacing: 글자간격 
+    padding: 안쪽 여백
+    margin: 바깥쪽 여백
+    margin 0 auto: 가운데 정렬
+    text-align center: 가운데 정렬
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예쁜템들 모여사는 오늘의 집</title>
+    <link rel="stylesheet" href="today-house.css">
+
+</head>
+<body>
+    <div id="house">
+        <a class="today-text" href="https://ohou.se/">
+        <img class="img" src="today-house.svg"><img class="today" src="today.svg">
+        </a> 
+           
+            <div class="form-control">
+                <form>
+                    <h3>회원가입</h3>
+                        <div class="sns-wrap">
+                            <div class="sns">SNS계정으로 간편하게 회원가입</div>
+                            <ul class="sns-container">
+                                <li class="sns-icon">
+                                    <a class="facebook" href="https://ohou.se/users/auth/facebook" tagret="_blank" title="페이스북으로 가입하기">
+                                        <img src="facebook.svg">
+                                    </a>
+                                </li>
+                                <li class="sns-icon">
+                                    <a class="kakao" href="https://ohou.se/users/auth/kakao" tagret="_blank" title="카카오톡으로 가입하기">
+                                        <img src="kakao.svg">
+                                    </a>
+                                </li>
+                                <li class="sns-icon">
+                                    <a class="naver" href="https://ohou.se/users/auth/naver" target="_blank" title="네이버로 가입하기">
+                                        <img src="naver.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    <h4>이메일</h4>
+                        <p>
+                        <input class= "input-form-control" type="text" placeholder="이메일">
+                        <span class="span-form-contorl">@</span>
+                        <select class="select-form-control" name="e-mail">
+                            <option value="">선택해주세요</option>
+                            <option value="">naver.com</option>
+                            <option value="">gmail.com</option>
+                            <option value="">nate.com</option>
+                            <option value="">hotmail.com</option>
+                            <option value="">outlook.com</option>
+                            <option value="">icloud.com</option>
+                            <option value="">직접 입력</option>
+                        </select>
+                        <button type="button">이메일 인증하기</button>
+                    </p>
+
+
+
+                    <h4>비밀번호</h4>
+                        <p>
+                            <div class="password">영문, 숫자를 포함한 8자 이상의 비밀번호를 입력해주세요.</div>
+                            <input type="password" placeholder="비밀번호">
+                        </p>
+                    <h4>비밀번호 확인</h4>
+                        <p>
+                            <input type="password" placeholder="비밀번호">
+                        </p>
+                    <h4>닉네임</h4>
+                        <div></div>
+                    <h4>약관동의</h4>
+
+                </form>
+        </div>
+    </div>
+</body>
+</html>
